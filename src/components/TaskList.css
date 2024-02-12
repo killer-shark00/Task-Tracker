@@ -1,0 +1,27 @@
+/* TaskList.css */
+.task-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task {
+    background: #f8f9fa;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task.completed {
+    background: #d4edda;
+  }
+  
+  .task:hover {
+    background: #e9ecef;
+  }
+  
+  .task:active {
+    opacity: 0.5;
+  }
+  
